@@ -8,8 +8,6 @@
 
 [Lab](#lab)
 
-[Scenario: Connect on-premises network to Azure and use ARS for route distribution](#Scenario-1-Connect-on-premises-network-to-Azure-and-use-ARS-for-route-distribution)
-
 ## Introduction
 Azure Route Server (ARS) now supports the NextHop IP feature.With this you can peer with NVAs deployed behind an Azure Internal Load Balancer (ILB). The internal load balancer lets you set up active-passive connectivity scenarios and leverage load balancing to improve connectivity performance. In the lab we will route the traffic from the Spoke VM to the Internet via the CSR and we will make use of the Next Hop ip feature to route through the loadbalancer.
 
